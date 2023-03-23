@@ -4,4 +4,4 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 
 ---
 <h3> 1.Result Summary Component</h3>
-<img src="/finished-component/1.png" alt="" style="width:500px;height:500x">
+<img src="/component-images/1.png" alt="" style="width:600px;height:600px">
