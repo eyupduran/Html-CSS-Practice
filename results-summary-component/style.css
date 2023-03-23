@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.item:nth-of-type(1){
+    background-color: rgb(87, 61, 248);
+    margin-right:-15px ;
+    z-index: 0;
+    color: aliceblue;
+}
+.item:nth-of-type(2){
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+.center-circle{
+    width: 175px;
+    height: 175px;
+    background-color: rgb(69, 44, 223);
+    border-radius: 50%;
+}
+.caption{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.6em;
+    opacity: 75%;
+}
+.center-circle{
+    text-align: center;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-big{
+    font-size: 4em;
+}
+.center-circle >p{
+    opacity: 75%;
+}
+.great{
+    font-size: 2em;
+    opacity: 100%;
+}
+
+.last-text{
+    text-align: center;
+    opacity: 75%;
+    margin: 0 30px 0 30px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.elem{
+    width:80%;
+    height: 50px;
+    margin-top: 15px;
+    background-color:aqua ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elem:nth-of-type(1){
+background-color: rgb(255, 246, 245);
+}
+.elem:nth-of-type(2){
+background-color: rgb(255, 251, 242);
+    
+}
+.elem:nth-of-type(3){
+background-color: rgb(242, 251, 250);
+    
+}
+.elem:nth-of-type(4){
+background-color: rgb(243, 243, 253);
+}
+
+.elem:nth-of-type(5){
+    background-color: rgb(65, 50, 239);
+    color: beige;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+    
+.left-elem{
+    display: flex;
+}
+.right>h2{
+    position: relative;
+    left: 40px;
+    opacity: 90%;
+}
+
+@media only screen and (max-width: 500px) {
+ .container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+ .item{
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 0;
+    margin-right: 0;
+   
+  }
+  .item:nth-of-type(1){
+    background-color: rgb(87, 61, 248);
+    color: aliceblue;
+    border-radius: 0 0 20px 20px ;
+}
+.item:nth-of-type(2){
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 0 0 20px 20px ;
+}
+  }
