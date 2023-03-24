@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+  }
+.container{
+    height: 100vh;
+    width: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--VeryDarkBlue);
+}
+.item{
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: var(--DarkBlue);
+}
+.inner-item{
+    padding: 40px;
+}
+
+.circle{
+    background-color: var(--VeryDarkBlue);
+    width: 50px;
+    height: 50px;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circle img{
+    max-width: 100%; /* resmin genişliğini sınırla */
+    max-height: 100%; /* resmin yüksekliğini sınırla */
+}
+.content{
+    margin-top: 40px;
+    color: var(--White);
+}
+
+.content p{
+  padding-top: 10px;
+  padding-right: 10px;
+  opacity: 50%;
+  line-height: 1.5em;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 25px;
+}
+.num{
+    opacity: 50%;
+}
+.button{
+    width: 100%;
+    height: 50px;
+    background-color: var( --Orange);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.button:hover{
+    background-color: var(--White);
+    color:  var(--Orange);
+}
+.num:nth-child(4):hover{
+    background-color: var(--White);
+    color:  var(--Orange);
+    opacity: 100;
+}
+.num:nth-child(5):hover{
+    background-color: var(--Orange);
+    color: var(--White);
+    opacity: 100;
+}
+
+@media only screen and (max-width: 700px) {
+    .item{
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        background-color: var(--DarkBlue);
+    }
+    .inner-item{
+        padding: 40px;
+    }
+}
