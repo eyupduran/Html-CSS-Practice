@@ -4,7 +4,13 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 
 ---
 
-<div class="container" style="display:flex;">
+1            |  2
+:-------------------------:|:-------------------------:
+**1.Result Summary Component**![](/component-images/1.png)  |  **2.Product Preview Card Component**![](/component-images/2.png)
+**3.Interactive Rating Component**![](/component-images/3.png)  | 
+
+
+<!-- <div class="container" style="display:flex;">
     <div class="left" style="flex: 50%;">
             <h3> 1.Result Summary Component</h3>
             <img src="/component-images/1.png" alt="" style="width:400px;height:400px">
@@ -17,4 +23,4 @@ This project is a project where I applied the challenges on www.frontendmentor.i
             <h3> 3.Interactive Rating Component</h3>
             <img src="/component-images/3.png" alt="" style="width:400px;height:400px">
     </div>
-</div>
+</div> -->
