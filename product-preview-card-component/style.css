@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 234, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    width: 225px;
+    height: 350px;
+}
+.left{
+    border-radius: 10px 0 0 10px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-image:url(./images/image-product-desktop.jpg);
+    background-size: cover;
+}
+.right{
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+}
+.perfume{
+    font-size: 0.70em;
+    opacity: 85%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:4px ;
+    margin-top: 10px;
+}
+.inner-right{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.inner-right > h4{
+    font-size: 1.4em;
+    margin-top: 12px;
+}
+
+.inner-right > p{
+    font-size: 0.90em;
+    opacity: 85%;
+    margin-top: 12px;
+}
+
+.money{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.money>h4{
+    font-size: 1.3em;
+    color: rgb(61, 129, 104);
+}
+
+.money>h6{
+  align-self: flex-end;
+  font-size: 0.85em;
+  text-decoration: line-through;
+  opacity: 55%;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:rgb(61, 129, 104);
+}
+.button:hover{
+    background-color:rgb(26, 64, 49);
+
+}
+.button>img{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(243, 234, 227);
+        display: flex;
+        flex-direction: column;
+    }
+    .item{
+        width: 80%;
+        height: 350px;
+    }
+    .left{
+        border-radius: 10px 10px 0 0;
+    }
+    .right{
+        border-radius: 0;
+        height: auto;
+    }
+
+    .perfume{
+        font-size: 0.90em;
+        margin-top: 15px;
+    }
+    
+    .inner-right > h4{
+        font-size: 2em;
+    }
+    
+    .inner-right > p{
+        font-size: 1em;
+        opacity: 85%;
+        margin-top: 10px;
+    }
+    
+    .money{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        gap: 10px;
+    }
+    
+    .money>h4{
+        font-size: 1.5em;
+        color: rgb(61, 129, 104);
+        align-self: flex-start;
+    }
+    
+    .money>h6{
+      align-self: flex-end;
+      font-size: 0.85em;
+      text-decoration: line-through;
+      opacity: 55%;
+    }
+    
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 40px;
+        color: white;
+        border-radius: 10px;
+        background-color:rgb(61, 129, 104);
+        overflow: hidden;
+    }
+}
+
+
