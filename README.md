@@ -10,4 +10,4 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 <img src="/component-images/2.png" alt="" style="width:550px;height:550x">
 
 <h3> 3.Interactive Rating Component</h3>
-<img src="/component-images/3.png" alt="" style="width:500px;height:500x">
+<img src="/component-images/3.png" alt="" style="width:550px;height:550px">
