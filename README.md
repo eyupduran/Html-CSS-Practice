@@ -7,7 +7,7 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 1            |  2
 :-------------------------:|:-------------------------:
 **1.Result Summary Component**![](/component-images/1.png)  |  **2.Product Preview Card Component**![](/component-images/2.png)
-**3.Interactive Rating Component**![](/component-images/3.png)  | 
+**3.Interactive Rating Component**![](/component-images/3.png)  | **4.Single Price Grid Component**![](/component-images/4.png)
 
 
 <!-- <div class="container" style="display:flex;">
