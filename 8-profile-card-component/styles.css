@@ -102,6 +102,8 @@
 .buttom-item > h5{
     font-weight: 200;
     margin-top: 5px;
+    text-align: center;
+
 }
 
 @media (max-width : 500px){
