@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root{
+    --VeryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --DesaturatedDarkBlue: hsl(214, 17%, 51%);
+    --GrayishBlue: hsl(212, 23%, 69%);
+    --LightGrayishBlue: hsl(210, 46%, 95%);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--LightGrayishBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-cart{
+    width: 45%;
+    height:300px ;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    border-radius: 10px;
+}
+.left{
+    background-image: url(./images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px;
+}
+.content{
+    padding: 40px;
+}
+.content > h5{
+    margin-top: 10px;
+    opacity: 50%;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+.bot-left{
+    display: flex;
+}
+.bot-right{
+    justify-self: right;
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.desc{
+    margin-left: 15px;
+}
+.desc > h6{
+    opacity: 50%;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    background-color: var(--LightGrayishBlue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.share{
+    width: 15px;
+    height: 15px;
+}
+
+@media (max-width:500px) {
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-color: var(--LightGrayishBlue);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-cart{
+        width: 80%;
+        height:80%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 3fr;
+        border-radius: 10px;
+    }
+    .left{
+        border-radius: 10px 10px 0 0;
+    }
+    .avatar{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .desc{
+        margin-left: 15px;
+    }
+    .desc > h5{
+        width: max-content;
+    }
+}
