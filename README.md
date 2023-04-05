@@ -10,4 +10,4 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 **3.Interactive Rating Component**![](/component-images/3.png)  | **4.Single Price Grid Component**![](/component-images/4.png)
 **5.Nft Preview Card Component**![](/component-images/5.png)  | **6.Order Summary Component**![](/component-images/6.png)
 **7.Stats Preview Card Component**![](/component-images/7.png)  | **8.Profile Card Component**![](/component-images/8.png)
-**9 Article Preview Component**![](/component-images/9.png)  | **10 Four Card Feature Section**![](/component-images/10.png)
+**9.Article Preview Component**![](/component-images/9.png)  | **10.Four Card Feature Section**![](/component-images/10.png)
