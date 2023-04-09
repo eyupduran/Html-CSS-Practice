@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+--Red: hsl(0, 100%, 74%) ;
+--Green: hsl(154, 59%, 51%);
+--Blue: hsl(248, 32%, 49%);
+--DarkBlue: hsl(249, 10%, 26%) ;
+--GrayishBlue: hsl(246, 25%, 77%);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color:var(--Red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 70%;
+    height: 90%;
+}
+.left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    color: white;
+    padding: 40px;
+    margin-top: -80px;
+}
+.content > h3{
+  font-size: 3em;
+  font-weight: bold;
+}
+.content > h5{
+  font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: var(--Blue);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.opacity{
+    font-weight: 100;
+    opacity: 80%;
+}
+.login-form{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.inner-form{
+    padding: 40px;
+}
+input{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size:0.9em;
+}
+.space{
+    margin-top: 20px;
+}
+.button{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: var(--Green);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.button > p {
+    text-align:  center;
+    text-transform: uppercase;
+}
+.button:hover {
+    opacity: 80%;
+}
+.terms{
+    font-size: 0.7em;
+    text-align: center;
+    padding: 10px;
+    opacity: 80%;
+}
+.terms > b{
+    color: var(--Red);
+    font-weight: 900;
+    opacity: 100%;
+}
+
+input[type="text"][required] {
+    background-image: radial-gradient(red 15%, transparent 16%);
+    background-size: 1em 1em;
+    background-position: top right;
+    background-repeat: no-repeat
+}
+input:focus{
+    font-weight: bolder;
+}
+
+@media (max-width : 500px){
+    .container{
+        width: 100vw;
+        height: auto;
+        background-image: url(./images/bg-intro-mobile.png);
+        background-color:var(--Red);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .item{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        height: auto;
+    }
+    .left{
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .content {
+        color: white;
+        padding: 30px;
+    }
+    .content > h3{
+      font-size: 2em;
+    }
+    .content > h5{
+        margin-top: 10px;
+        font-weight: 100;
+    }
+    .top{
+        margin-top: 20px;
+    }
+    .inner-form{
+        padding: 20px;
+    }
+}
