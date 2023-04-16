@@ -11,5 +11,5 @@ This project is a project where I applied the challenges on www.frontendmentor.i
 **5.Nft Preview Card Component**![](/component-images/5.png)  | **6.Order Summary Component**![](/component-images/6.png)
 **7.Stats Preview Card Component**![](/component-images/7.png)  | **8.Profile Card Component**![](/component-images/8.png)
 **9.Article Preview Component**![](/component-images/9.png)  | **10.Four Card Feature Section**![](/component-images/10.png)
-**11.Intro Component With Signup Form**![](/component-images/11.png)  |
+**11.Intro Component With Signup Form**![](/component-images/11.png) |**12.News Homepage**![](/component-images/12.png)
 
